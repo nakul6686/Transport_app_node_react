@@ -23,7 +23,7 @@ const postTransportar = async (req, resp) => {
         const user = await newUser.save()
         resp.status(200).json(user)
     } catch (error) {
-        resp.send(402).json("bad request.")
+        resp.send(402).json("bad request.123 ")
     }
 }
 
